@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["dom", "es2020"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["office-js"]
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
